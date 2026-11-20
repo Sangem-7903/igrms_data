@@ -1,0 +1,42 @@
+// src/districtReportData.js
+// District wise complaint counts, copied from the IGRMS report "DistrictwiseTillDate" (PDF printed 10/24/26, 12:44 PM).
+// District names are kept exactly as that report spells them.
+// This is a saved copy, not live data. See fetchDistrictReport() in App.js to switch to a real API later.
+export const DISTRICT_REPORT = {
+  asOf: "24-Oct-2026 12:44 PM",
+  rows: [
+    { districtName: "Adilabad", total: 36, pending: 4, disposal: 32, rejected: 0 },
+    { districtName: "Bhadrdri Kothagudem", total: 87, pending: 42, disposal: 45, rejected: 0 },
+    { districtName: "Hanumakonda", total: 305, pending: 9, disposal: 294, rejected: 2 },
+    { districtName: "Hyderabad", total: 1489, pending: 17, disposal: 1459, rejected: 13 },
+    { districtName: "Jagityal", total: 40, pending: 3, disposal: 37, rejected: 0 },
+    { districtName: "Janagaon", total: 106, pending: 20, disposal: 74, rejected: 12 },
+    { districtName: "Jayashankar Bhupalpalli", total: 35, pending: 33, disposal: 2, rejected: 0 },
+    { districtName: "Jogulamba Gadwal", total: 28, pending: 8, disposal: 20, rejected: 0 },
+    { districtName: "Kamareddy", total: 95, pending: 23, disposal: 70, rejected: 2 },
+    { districtName: "Karimnagar", total: 140, pending: 8, disposal: 110, rejected: 22 },
+    { districtName: "Khammam", total: 138, pending: 7, disposal: 130, rejected: 1 },
+    { districtName: "Kumarambheem Asifabad", total: 42, pending: 11, disposal: 18, rejected: 13 },
+    { districtName: "Mahabubabad", total: 130, pending: 17, disposal: 110, rejected: 3 },
+    { districtName: "Mahbubnagar", total: 69, pending: 8, disposal: 61, rejected: 0 },
+    { districtName: "Manchiryala", total: 49, pending: 2, disposal: 46, rejected: 1 },
+    { districtName: "Medak", total: 136, pending: 9, disposal: 127, rejected: 0 },
+    { districtName: "Medchal", total: 1180, pending: 7, disposal: 1151, rejected: 22 },
+    { districtName: "Mulugu", total: 14, pending: 1, disposal: 13, rejected: 0 },
+    { districtName: "Nagarkarnool", total: 68, pending: 0, disposal: 68, rejected: 0 },
+    { districtName: "Nalgonda", total: 201, pending: 14, disposal: 180, rejected: 7 },
+    { districtName: "Narayanpet", total: 11, pending: 8, disposal: 2, rejected: 1 },
+    { districtName: "Nirmal", total: 41, pending: 4, disposal: 36, rejected: 1 },
+    { districtName: "Nizamabad", total: 219, pending: 69, disposal: 148, rejected: 2 },
+    { districtName: "Peddapalli", total: 81, pending: 4, disposal: 74, rejected: 3 },
+    { districtName: "Rajanna Siricilla", total: 75, pending: 40, disposal: 35, rejected: 0 },
+    { districtName: "Ranga Reddy", total: 673, pending: 55, disposal: 603, rejected: 15 },
+    { districtName: "Sangareddy", total: 226, pending: 15, disposal: 207, rejected: 4 },
+    { districtName: "Siddipet", total: 108, pending: 4, disposal: 104, rejected: 0 },
+    { districtName: "Suryapet", total: 94, pending: 22, disposal: 72, rejected: 0 },
+    { districtName: "Vikarabad", total: 148, pending: 35, disposal: 106, rejected: 7 },
+    { districtName: "Wanaparthy", total: 29, pending: 6, disposal: 23, rejected: 0 },
+    { districtName: "Warangal", total: 227, pending: 25, disposal: 202, rejected: 0 },
+    { districtName: "Yadadri Bhuvanagiri", total: 86, pending: 20, disposal: 59, rejected: 7 },
+  ],
+};
