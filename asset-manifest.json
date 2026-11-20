@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/igrms_data/static/css/main.acf5bcbc.css",
+    "main.js": "/igrms_data/static/js/main.cc2f6259.js",
+    "static/js/453.31164fde.chunk.js": "/igrms_data/static/js/453.31164fde.chunk.js",
+    "index.html": "/igrms_data/index.html",
+    "main.acf5bcbc.css.map": "/igrms_data/static/css/main.acf5bcbc.css.map",
+    "main.cc2f6259.js.map": "/igrms_data/static/js/main.cc2f6259.js.map",
+    "453.31164fde.chunk.js.map": "/igrms_data/static/js/453.31164fde.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acf5bcbc.css",
+    "static/js/main.cc2f6259.js"
+  ]
+}
